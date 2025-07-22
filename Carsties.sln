@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{CE60B536-4FFB-49DB-8A67-11DBFDD82B03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{97C700E5-8D05-4176-81F9-31D6423642D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{CE60B536-4FFB-49DB-8A67-11DBFDD82B03}.Release|x64.Build.0 = Release|Any CPU
 		{CE60B536-4FFB-49DB-8A67-11DBFDD82B03}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE60B536-4FFB-49DB-8A67-11DBFDD82B03}.Release|x86.Build.0 = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|x64.Build.0 = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{97C700E5-8D05-4176-81F9-31D6423642D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{01F14B2A-DD37-479D-B89B-610D60970FEC} = {FE96F267-2E57-49D9-9C24-B6D6DC16FC39}
 		{CE60B536-4FFB-49DB-8A67-11DBFDD82B03} = {FE96F267-2E57-49D9-9C24-B6D6DC16FC39}
+		{97C700E5-8D05-4176-81F9-31D6423642D0} = {FE96F267-2E57-49D9-9C24-B6D6DC16FC39}
 	EndGlobalSection
 EndGlobal
